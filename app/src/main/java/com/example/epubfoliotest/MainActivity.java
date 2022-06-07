@@ -55,8 +55,14 @@ public class MainActivity extends AppCompatActivity implements  onepubFileSelect
         seekbar = (SeekBar)findViewById(R.id.seekBar);
         seekbar.setClickable(false);
 
+//        openDialog();
         runtimePermission();
     }
+
+//    public void openDialog() {
+//        DialogLogin dialogLogin = new DialogLogin();
+//        dialogLogin.show(getSupportFragmentManager(), "dialogue login");
+//    }
 
     public void play(View v) {
         if (player == null) {
